@@ -31,15 +31,17 @@ const pizza = {
 
 // ১. একটা ফাংশন লিখবা যেটা ১৩ এর নামতা (multiplication table) আউটপুট হিসেবে দেখাবে।
 
-let a = 13;
-let b;
+function(){
+  let a = 13;
+  let b;
 
-for (let i = 0; i <= 10; i++) {
+  for (let i = 0; i <= 10; i++) {
   b = a * i;
 
   console.log(` ${a}*${i} = ${b}`);
-}
+  }
 
+}
 // ২. একটা ফাংশন লিখবা যেটা যেকোন নামকে uppercase বা রেগুলার কেইস হিসেবে নিবে আর আউটপুট হিসেবে সেই নাম lowercase করে রিটার্ন করবে।
 
 function write(text) {
